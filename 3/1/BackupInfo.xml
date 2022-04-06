@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BackupInfo Version="1.2">
+  <OSVersion>
+    <Version>6.2</Version>
+    <Bit>64</Bit>
+  </OSVersion>
+  <Class>
+    <Guid>{4d36e96c-e325-11ce-bfc1-08002be10318}</Guid>
+    <Name>MEDIA</Name>
+    <FullName>Sound, video and game controllers</FullName>
+  </Class>
+  <Driver>
+    <Description>Realtek High Definition Audio</Description>
+    <Version>6.0.9210.1</Version>
+    <Date>7-27-2021</Date>
+    <Provider>Realtek Semiconductor Corp.</Provider>
+    <InfSection>IntcAzAudModel.NTamd64</InfSection>
+    <MatchingDeviceId>HDAUDIO\FUNC_01&amp;VEN_10EC&amp;DEV_0269&amp;SUBSYS_1D051065</MatchingDeviceId>
+    <DeviceHardwareId>HDAUDIO\FUNC_01&amp;VEN_10EC&amp;DEV_0269&amp;SUBSYS_1D051065&amp;REV_1002</DeviceHardwareId>
+    <Files>
+      <File_1>hdxrt.inf</File_1>
+      <File_2>hdxrt.cat</File_2>
+      <File_3>rtkvhd64.sys</File_3>
+      <File_4>rtaiodat.dat</File_4>
+    </Files>
+  </Driver>
+</BackupInfo>

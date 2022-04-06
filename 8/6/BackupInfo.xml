@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BackupInfo Version="1.2">
+  <OSVersion>
+    <Version>6.2</Version>
+    <Bit>64</Bit>
+  </OSVersion>
+  <Class>
+    <Guid>{5c4c3332-344d-483c-8739-259e934c9cc8}</Guid>
+    <Name>SoftwareComponent</Name>
+    <FullName>软件组件</FullName>
+  </Class>
+  <Driver>
+    <Description>Sound Blaster Connect</Description>
+    <Version>2.3.5.0</Version>
+    <Date>1-22-2020</Date>
+    <Provider>Creative Technology Ltd.</Provider>
+    <InfSection>SBConnect.Component_Install.NTamd64</InfSection>
+    <MatchingDeviceId>SWC\VEN_1102&amp;AID_FE00</MatchingDeviceId>
+    <DeviceHardwareId>SWC\VEN_1102&amp;AID_FE00</DeviceHardwareId>
+    <Files>
+      <File_1>creativesbconnect.inf</File_1>
+      <File_2>creativesbconnect.cat</File_2>
+      <File_3>creative.uwprpcservice.exe</File_3>
+    </Files>
+  </Driver>
+</BackupInfo>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BackupInfo Version="1.2">
+  <OSVersion>
+    <Version>6.2</Version>
+    <Bit>64</Bit>
+  </OSVersion>
+  <Class>
+    <Guid>{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}</Guid>
+    <Name>Bluetooth</Name>
+    <FullName>蓝牙</FullName>
+  </Class>
+  <Driver>
+    <Description>英特尔(R) 无线 Bluetooth(R)</Description>
+    <Version>22.120.0.3</Version>
+    <Date>1-25-2022</Date>
+    <Provider>Intel Corporation</Provider>
+    <InfSection>ibtusb</InfSection>
+    <MatchingDeviceId>USB\VID_8087&amp;PID_0029&amp;REV_0001</MatchingDeviceId>
+    <DeviceHardwareId>USB\VID_8087&amp;PID_0029&amp;REV_0001</DeviceHardwareId>
+    <Files>
+      <File_1>ibtusb.inf</File_1>
+      <File_2>ibtusb.cat</File_2>
+      <File_3>ibtusb.sys</File_3>
+    </Files>
+  </Driver>
+</BackupInfo>

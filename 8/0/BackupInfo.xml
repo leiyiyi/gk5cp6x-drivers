@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BackupInfo Version="1.2">
+  <OSVersion>
+    <Version>6.2</Version>
+    <Bit>64</Bit>
+  </OSVersion>
+  <Class>
+    <Guid>{5c4c3332-344d-483c-8739-259e934c9cc8}</Guid>
+    <Name>SoftwareComponent</Name>
+    <FullName>软件组件</FullName>
+  </Class>
+  <Driver>
+    <Description>Intel(R) Graphics Control Panel</Description>
+    <Version>30.0.101.1404</Version>
+    <Date>2-18-2022</Date>
+    <Provider>Intel Corporation</Provider>
+    <InfSection>Igdlh_CUI_Component_Install</InfSection>
+    <MatchingDeviceId>SWC\101.1404_VEN8086_GFXUI</MatchingDeviceId>
+    <DeviceHardwareId>SWC\101.1404_VEN8086_GFXUI</DeviceHardwareId>
+    <Files>
+      <File_1>igdlh.inf</File_1>
+      <File_2>igdlh.cat</File_2>
+      <File_3>igfxdh.dll</File_3>
+      <File_4>igfxdi.dll</File_4>
+      <File_5>igfxlhm.dll</File_5>
+      <File_6>igfxsdk.exe</File_6>
+      <File_7>igfxsdklib.dll</File_7>
+      <File_8>gfxdownloadwrapper.exe</File_8>
+      <File_9>igfxem.exe</File_9>
+      <File_10>igfxcuiserviceps.dll</File_10>
+      <File_11>igfxcuiservice.exe</File_11>
+      <File_12>igfxext.exe</File_12>
+      <File_13>igfxexps.dll</File_13>
+      <File_14>igfxexps32.dll</File_14>
+      <File_15>colorimageenhancement.wmv</File_15>
+      <File_16>imagestabilization.wmv</File_16>
+      <File_17>filmmodedetection.wmv</File_17>
+      <File_18>igfxdhn.dll</File_18>
+      <File_19>igfxdin.dll</File_19>
+      <File_20>igfxemn.exe</File_20>
+      <File_21>igfxcuiservicepsn.dll</File_21>
+      <File_22>igfxcuiservicen.exe</File_22>
+      <File_23>igfxextn.exe</File_23>
+    </Files>
+  </Driver>
+</BackupInfo>
