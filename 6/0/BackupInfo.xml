@@ -5,22 +5,24 @@
     <Bit>64</Bit>
   </OSVersion>
   <Class>
-    <Guid>{4d36e97b-e325-11ce-bfc1-08002be10318}</Guid>
-    <Name>SCSIAdapter</Name>
-    <FullName>存储控制器</FullName>
+    <Guid>{4d36e96a-e325-11ce-bfc1-08002be10318}</Guid>
+    <Name>HDC</Name>
+    <FullName>IDE ATA/ATAPI 控制器</FullName>
   </Class>
   <Driver>
-    <Description>Samsung NVMe Controller</Description>
-    <Version>3.3.0.2003</Version>
-    <Date>1-21-2020</Date>
-    <Provider>Samsung Electronics Co., Ltd</Provider>
-    <InfSection>nvme_inst.NTamd64</InfSection>
-    <MatchingDeviceId>PCI\VEN_144D&amp;DEV_A808&amp;SUBSYS_A801144D</MatchingDeviceId>
-    <DeviceHardwareId>PCI\VEN_144D&amp;DEV_A808&amp;SUBSYS_A801144D&amp;REV_00</DeviceHardwareId>
+    <Description>Intel(R) 300 Series Chipset Family SATA AHCI Controller</Description>
+    <Version>17.9.6.1019</Version>
+    <Date>2-2-2021</Date>
+    <Provider>Intel Corporation</Provider>
+    <InfSection>AHCI_inst.NTamd64</InfSection>
+    <MatchingDeviceId>PCI\VEN_8086&amp;DEV_A353&amp;CC_0106</MatchingDeviceId>
+    <DeviceHardwareId>PCI\VEN_8086&amp;DEV_A353&amp;SUBSYS_10651D05&amp;REV_10</DeviceHardwareId>
     <Files>
-      <File_1>secnvme.inf</File_1>
-      <File_2>secnvme.cat</File_2>
-      <File_3>secnvme.sys</File_3>
+      <File_1>iaahcic.inf</File_1>
+      <File_2>iaahcic.cat</File_2>
+      <File_3>rstmwservice.exe</File_3>
+      <File_4>iastorac.sys</File_4>
+      <File_5>rstmweventlogmsg.dll</File_5>
     </Files>
   </Driver>
 </BackupInfo>
